@@ -1,0 +1,27 @@
+*,*::after, *::before{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.video{
+    width: auto;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+}
+.video::after{
+    content: "";
+    display: block;
+    width: auto;
+    padding-bottom: auto;
+}
+
+.R-video{
+    width: auto;
+    height: auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+
+}
